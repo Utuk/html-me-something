@@ -38,35 +38,58 @@
 	grid-template: 2fr 2fr 2fr / 2fr 2fr 2fr;
 	grid-gap: 20px 20px; 
 }
+header {
+	background-color: lightgray;
+	border-bottom: 1px solid lightgrey;
+	position: fixed;
+	z-index: 2;
+	width: 100%;
+  }
+
 p,
 h2,
 h3,
-h4 {
-	font-family: 'Mukata';
+h4,
+li,
+.expertise {	
+	position: relative;
+	display: block;
+	top: 80px;
+	left: 100px;
+	font-family: 'Mukta';
 }
 
 h2,
 h3,
-h4 {
+h4 
+.expertise {
 	font-weight: 700;
+	border: 1px solid black;
+	max-width: 600px;
 }
 #special-name-display {
 	font-family: 'Mukta';
-	text-align: center;
+	text-align: left;
 	font-weight:bold;
 	text-transform: uppercase;
 	/*background-color: purple;*/
-	background-image: url("images/AbstractCoding.jpp");
+	/*background-image: url("images/AbstractCoding.jpp");
 	max-height: 876px;
 	max-width: 1866px;
+	object-fit: cover;*/
 }
 
 
 p {
+	position: relative;
+	display: block;
+	top: 80px;
+	left: 100px;
 	min-width: 200px;
 	max-width: 600px;
 	min-height: 50px;
 	max-height: 800px;
+	font-size: medium;
 }
 
 
@@ -74,4 +97,9 @@ p {
 .list li{
 
 
+}
+.launchcode {
+	max-width: 100;
+	max-height: 50;
+	object-fit: cover;
 }
