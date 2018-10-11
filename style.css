@@ -77,8 +77,8 @@ h4
 	text-align: left;
 	font-weight:bold;
 	text-transform: uppercase;
-	/*background-image: url("markus-spiske-HTMLcode.jpp");
-	object-fit: cover;*/
+	background-image: url("markus-spiske-HTMLcode.jpp");
+	object-fit: cover;
 }
 
 
@@ -96,14 +96,13 @@ p {
 
 
 /*selects list items*/
-.list li{
-	
+.list {
 }
 
 .launch-code {
 	position: relative;
 	display: block;
-	top: 80px;
+	top: 60px;
 	left: 100px;
 	padding-left: 10px
 }
@@ -116,4 +115,13 @@ img {
 	margin-left: 100px;
 	object-fit: fill;
 	max-width: 600px;
+}
+
+.pic {
+	margin-left: 100px;
+	opacity: .5;
+}
+
+h4 {
+	font-size: 20px;
 }
